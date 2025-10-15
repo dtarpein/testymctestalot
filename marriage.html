@@ -1,0 +1,1038 @@
+Content is user-generated and unverified.
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>The Best of Us - 30-Day Marriage Challenge</title> <style> @media print { .no-print { display: none; } .page-break { page-break-after: always; } body { margin: 0; padding: 0; } }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Georgia', serif;
+        line-height: 1.6;
+        color: #2c2c2c;
+        background: #f5f5f5;
+        padding: 20px;
+    }
+    
+    .booklet-container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    }
+    
+    .page {
+        padding: 60px 50px;
+        min-height: 1000px;
+        background: white;
+        position: relative;
+    }
+    
+    .cover {
+        background: linear-gradient(135deg, #8B1538 0%, #C41E3A 100%);
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 50px;
+    }
+    
+    .cover h1 {
+        font-size: 3.5em;
+        margin-bottom: 20px;
+        font-weight: normal;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    
+    .cover .subtitle {
+        font-size: 1.8em;
+        font-style: italic;
+        margin-bottom: 40px;
+        opacity: 0.9;
+    }
+    
+    .cover .decoration {
+        font-size: 3em;
+        margin: 30px 0;
+        opacity: 0.6;
+    }
+    
+    .cover p {
+        font-size: 1.1em;
+        max-width: 500px;
+        line-height: 1.8;
+        opacity: 0.9;
+    }
+    
+    .intro-page {
+        padding: 60px 50px;
+    }
+    
+    .intro-page h2 {
+        color: #8B1538;
+        font-size: 2em;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .intro-page p {
+        margin-bottom: 20px;
+        text-align: justify;
+        font-size: 1.1em;
+    }
+    
+    .week-header {
+        background: linear-gradient(135deg, #8B1538 0%, #C41E3A 100%);
+        color: white;
+        padding: 40px;
+        text-align: center;
+        margin: -60px -50px 40px -50px;
+    }
+    
+    .week-header h2 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+    
+    .week-header p {
+        font-size: 1.3em;
+        font-style: italic;
+        opacity: 0.9;
+    }
+    
+    .day-card {
+        margin-bottom: 40px;
+        border-left: 4px solid #8B1538;
+        padding-left: 25px;
+    }
+    
+    .day-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+    .day-number {
+        background: #8B1538;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 25px;
+        font-weight: bold;
+        font-size: 1.1em;
+        margin-right: 15px;
+    }
+    
+    .day-theme {
+        color: #C41E3A;
+        font-weight: bold;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .day-prompt {
+        background: #fef6f8;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 15px 0;
+    }
+    
+    .day-prompt strong {
+        color: #8B1538;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.05em;
+    }
+    
+    .make-special {
+        margin-top: 15px;
+    }
+    
+    .make-special-title {
+        color: #8B1538;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 1.05em;
+        display: flex;
+        align-items: center;
+    }
+    
+    .make-special-title::before {
+        content: "✨";
+        margin-right: 8px;
+    }
+    
+    .make-special ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .make-special li {
+        padding: 5px 0 5px 25px;
+        position: relative;
+    }
+    
+    .make-special li::before {
+        content: "♥";
+        color: #C41E3A;
+        position: absolute;
+        left: 0;
+    }
+    
+    .checkbox {
+        float: right;
+        width: 24px;
+        height: 24px;
+        border: 2px solid #8B1538;
+        border-radius: 4px;
+        margin-top: 5px;
+    }
+    
+    .footer-page {
+        background: linear-gradient(135deg, #8B1538 0%, #C41E3A 100%);
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 50px;
+    }
+    
+    .footer-page h2 {
+        font-size: 2.5em;
+        margin-bottom: 30px;
+    }
+    
+    .footer-page p {
+        font-size: 1.2em;
+        max-width: 600px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+    
+    .footer-page ul {
+        list-style: none;
+        text-align: left;
+        margin: 30px 0;
+    }
+    
+    .footer-page li {
+        padding: 10px 0;
+        font-size: 1.1em;
+    }
+    
+    .footer-page li::before {
+        content: "♥ ";
+        color: white;
+    }
+    
+    .controls {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    
+    .controls button {
+        background: #8B1538;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        margin: 5px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 1em;
+        box-shadow: 0 2px 10px rgba(139, 21, 56, 0.3);
+        transition: all 0.3s;
+    }
+    
+    .controls button:hover {
+        background: #C41E3A;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(139, 21, 56, 0.4);
+    }
+    
+    @media (max-width: 768px) {
+        .page {
+            padding: 40px 30px;
+            min-height: auto;
+        }
+        
+        .cover h1 {
+            font-size: 2.5em;
+        }
+        
+        .cover .subtitle {
+            font-size: 1.3em;
+        }
+        
+        .week-header {
+            margin: -40px -30px 30px -30px;
+            padding: 30px;
+        }
+        
+        .week-header h2 {
+            font-size: 2em;
+        }
+    }
+</style>
+</head> <body> <div class="controls no-print"> <button onclick="window.print()">Print Booklet</button> </div>
+<div class="booklet-container">
+    <!-- Cover Page -->
+    <div class="page cover">
+        <div class="decoration">❤</div>
+        <h1>The Best of Us</h1>
+        <div class="subtitle">A 30-Day Marriage Challenge</div>
+        <p>Intentional connection, deeper intimacy, and heartfelt appreciation for the journey you're on together</p>
+    </div>
+
+    <!-- Introduction Page -->
+    <div class="page intro-page page-break">
+        <h2>Welcome to Your Journey</h2>
+        <p>Marriage is a beautiful adventure, but it requires intentional effort to keep the spark alive and the connection deep. This 30-day challenge is designed to help you prioritize what matters most: each other.</p>
+        
+        <p>Over the next month, you'll explore three core themes that strengthen every marriage:</p>
+        
+        <p><strong style="color: #8B1538;">Intimacy</strong> - Reconnecting physically and emotionally, creating moments of closeness and vulnerability.</p>
+        
+        <p><strong style="color: #8B1538;">Connection</strong> - Building deeper understanding through meaningful conversations and shared experiences.</p>
+        
+        <p><strong style="color: #8B1538;">Appreciation</strong> - Expressing gratitude and recognizing the value your partner brings to your life.</p>
+        
+        <p>Each day includes a prompt and practical suggestions to make it special. Some days will be easy and fun, others might challenge you to be vulnerable or have difficult conversations. All of them are designed to bring you closer together.</p>
+        
+        <p><strong>How to use this booklet:</strong> Read each day together or separately, then come together to complete the activity. Check the box when you've completed each day. Be patient with yourselves, be honest with each other, and most importantly—enjoy the process of falling in love all over again.</p>
+    </div>
+
+    <!-- Week 1 -->
+    <div class="page page-break">
+        <div class="week-header">
+            <h2>Week 1</h2>
+            <p>Building the Foundation</p>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 1</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>The Moment You Fell in Love</strong>
+                Share the moment you realized you loved them and how it felt to have finally met your person. Yes, even if that was 30+ years ago, take this moment to reminisce about falling in love.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Light a candle while sharing your stories</li>
+                    <li>Write it down in a shared journal you can revisit</li>
+                    <li>End with a long embrace while reflecting on that feeling</li>
+                    <li>Take a photo together to mark Day 1</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 2</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Set a Mutual Goal</strong>
+                What is one mutual goal we want to achieve this year together? Pick an area of life (like health, finances, fun, etc), then make the goal specific enough to act upon together.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Create a vision board together for your goal</li>
+                    <li>Set a calendar reminder to check in on progress monthly</li>
+                    <li>Celebrate with a toast</li>
+                    <li>Write the goal on a card and post it somewhere visible</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 3</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Recreate a First Date</strong>
+                Prepare or go get a meal that reminds you of one of your first dates. Talk about what this moment reminds you of from the early days together, but also how you've grown and evolved together.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Dress up like you would for a first date</li>
+                    <li>Play music from when you first met</li>
+                    <li>Look at old photos from your early dating days</li>
+                    <li>Order from the same restaurant if it still exists</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page page-break">
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 4</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>5-Minute Massage Exchange</strong>
+                In bed tonight, take turns giving each other a 5 minute massage. Really put your heart into making them feel good. See where that affection takes you, but it doesn't have to go beyond that.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Use scented lotion or massage oil</li>
+                    <li>Dim the lights and eliminate all distractions (phones away)</li>
+                    <li>Focus on their favorite spots (shoulders, feet, hands, scalp)</li>
+                    <li>Follow up with gentle affection and connection</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 5</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Life Values Discussion</strong>
+                Is there a life value or lesson you want to pass down to our family? How can we bring that more into our daily lives? Whether you have kids or not, this is an opportunity to evaluate what values you want to be an example of to those around you.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Go for a walk together while discussing</li>
+                    <li>Write down your shared values in a family mission statement</li>
+                    <li>Discuss how to model these values for your children/future</li>
+                    <li>End by affirming why these values matter to both of you</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 6</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Relieve Their Stress</strong>
+                Do a little something to help relieve their stress today. It doesn't have to be anything complex, but make it something that isn't a part of your normal routine.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Do it without them asking or expecting it</li>
+                    <li>Add a sweet note explaining why you wanted to help</li>
+                    <li>Examples: start a bath, pick up favorite food, clean their chore, run an errand, take kids out for alone time</li>
+                    <li>Ask them how it made them feel later</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 7</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Letters About Your Future</strong>
+                Write each other a letter (on paper if possible) about 5 fun things you see in your future together. Make 3 of them sweet and 2 of them sexy!
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Use nice stationery or meaningful paper</li>
+                    <li>Read the letters aloud to each other over dessert or wine</li>
+                    <li>Keep the letters in a special box to reread on anniversaries</li>
+                    <li>End the evening with intentional time together</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Week 2 -->
+    <div class="page page-break">
+        <div class="week-header">
+            <h2>Week 2</h2>
+            <p>Deepening Connection</p>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 8</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Staying Connected</strong>
+                Ask each other: "What do you think is the most important thing we do as a couple to stay connected, and how can we make that more of a priority this year?"
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Have this conversation somewhere cozy (in bed, on the couch)</li>
+                    <li>Turn it into a "state of the union" check-in</li>
+                    <li>Write down the top 3 priorities you both agree on</li>
+                    <li>Set a specific action plan for this week</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 9</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Share One Strength</strong>
+                Share with each other one strength you see in the other person.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Be specific with examples of when you've seen this strength</li>
+                    <li>Tell them why this quality matters to you personally</li>
+                    <li>Write it on a sticky note and put it where they'll find it</li>
+                    <li>Take a moment to let the compliment really sink in</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 10</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Sexy Shower or Bath</strong>
+                At some point today, take a sexy shower or bath together, even if it has to be late at night after the kids are in bed. No logistical conversations, just sweet + loving touch and words.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Set the mood with candles and music beforehand</li>
+                    <li>Make sure the bathroom is warm and comfortable</li>
+                    <li>Use nice soaps or bath products</li>
+                    <li>Take your time—no rushing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page page-break">
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 11</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Pick a New Hobby Together</strong>
+                Ask each other: "If we each had to pick a new hobby to try together, no matter how goofy/weird/rare, what would it be?"
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Research the hobby online together and laugh about it</li>
+                    <li>Make a plan to actually try it (even just once)</li>
+                    <li>Don't dismiss anything—this is about fun and curiosity</li>
+                    <li>Consider making it a quarterly tradition to try something new</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 12</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Express Teamwork Gratitude</strong>
+                Share this statement with each other: "Every time we face something together, whether big or small, I'm reminded that we're in this as a team. I really appreciate how you [specific action or attitude]."
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Share multiple examples if you can think of them</li>
+                    <li>Talk about a recent challenge you tackled as a team</li>
+                    <li>Express how their partnership makes you feel</li>
+                    <li>Give a meaningful hug after sharing</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 13</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Create Excitement Through Flirting</strong>
+                Create the environment for intimacy long before the act! Focus on flirting way before you enter the bedroom. Think about the little ways you can create excitement for seeing each other tonight.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Start flirting early in the day</li>
+                    <li>Examples: kiss their neck making dinner, whisper something flirty, send a spicy text, graze their leg</li>
+                    <li>Dress in something that makes you feel confident</li>
+                    <li>Remember: flirting adds fun even if it doesn't lead to the bedroom</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 14</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Share Something Never Told</strong>
+                Ask each other: "What's something you've never told me about yourself—big or small—that you think would help me understand you better?"
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Create a safe, judgment-free space for sharing</li>
+                    <li>Listen without interrupting or immediately responding</li>
+                    <li>Thank them for trusting you with this</li>
+                    <li>Ask gentle follow-up questions if appropriate</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Week 3 -->
+    <div class="page page-break">
+        <div class="week-header">
+            <h2>Week 3</h2>
+            <p>Building Momentum</p>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 15</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Public Compliment</strong>
+                Find an opportunity—either today or very soon—to compliment your partner or say something sweet in front of others.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Make it genuine and specific to them</li>
+                    <li>Examples: at dinner with friends, at the park with kids, at a store, at a family gathering</li>
+                    <li>Follow up later by telling them you meant every word</li>
+                    <li>Make this a regular habit going forward</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 16</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Why You Love Doing Life Together</strong>
+                Lay in bed together and spend 10 minutes sharing with each other why you love doing life together. Make sure you are face to face, under the covers, and touching lovingly with your hands and feet.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Make it a phone-free zone</li>
+                    <li>Really look at each other while talking</li>
+                    <li>Take turns—give each person space to share fully</li>
+                    <li>Don't rush to physical intimacy; let it develop naturally</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 17</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Celebrate a Proud Moment</strong>
+                Ask each other: "What's one of your proudest moments of us as a couple, and what did you notice about how we handled it?"
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Recall the details of that moment together</li>
+                    <li>Celebrate how far you've come as a couple</li>
+                    <li>Take a selfie to commemorate the reflection</li>
+                    <li>Talk about what strengths you want to carry forward</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page page-break">
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 18</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Hide a Sweet Note</strong>
+                Hide a sweet note somewhere that they'll come across at some point in the day. Write something you find admirable, sexy, or sweet about them.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Hide it somewhere unexpected (lunch bag, car, wallet, pillow)</li>
+                    <li>Make it personal and heartfelt</li>
+                    <li>Include a specific recent moment that made you fall for them again</li>
+                    <li>Ask them later how it made them feel</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 19</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Intentional Physical Touch</strong>
+                Today, don't walk by each other in the home without initiating some physical touch that says "I see you, I love you, I desire you, or I appreciate you."
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Vary your touches: hand on small of back, kiss on neck, squeeze of hand</li>
+                    <li>Make eye contact when you touch</li>
+                    <li>Whisper something sweet during one of the touches</li>
+                    <li>Note how this changes the energy in your home</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 20</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Let Go and Support</strong>
+                Ask each other: "What's something you'd like to let go of that no longer serves you (a belief, behavior, relationship, or object), and how can I support you with that?"
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Create a ritual of "letting go" (write it down and tear it up together)</li>
+                    <li>Brainstorm specific ways to support each other</li>
+                    <li>Check in a week later on progress</li>
+                    <li>Celebrate the courage it takes to let things go</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 21</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Notice What's Taken for Granted</strong>
+                Notice the little things that are easy to take for granted about what your partner does or who they are. Identify 3 things that they just get done without you having to think about it, and 3 traits that make them unique as a partner, parent, or person.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Be very specific about what you notice</li>
+                    <li>Express how these things make your life better</li>
+                    <li>Acknowledge that you may have taken these for granted</li>
+                    <li>Thank them sincerely</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Week 4 -->
+    <div class="page page-break">
+        <div class="week-header">
+            <h2>Week 4</h2>
+            <p>Sustaining the Momentum</p>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 22</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Prioritize Physical Intimacy</strong>
+                Discuss how physical intimacy can be made more of a priority moving forward. Some couples find it beneficial to schedule intimacy or to start habits like going to bed together, being intimate in the afternoon, or before going on date night. Then start today!
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Be honest about barriers that have gotten in the way</li>
+                    <li>Come up with creative solutions together</li>
+                    <li>Think beyond scheduling—how can you bring excitement?</li>
+                    <li>Act on your plan today to show commitment</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 23</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Share Unspoken Fears</strong>
+                Ask each other: "When you think about the future, what's one fear, worry, or doubt you have that we haven't discussed yet?"
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Choose a calm, comfortable setting</li>
+                    <li>Listen without trying to "fix" or minimize their feelings</li>
+                    <li>Share your own vulnerabilities too</li>
+                    <li>End by reassuring each other you're facing the future as a team</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 24</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Express Gratitude for Their Support</strong>
+                Express to each other: "One of the things I'm most thankful for is how you help me grow and realize my individual dreams. When you [mention a specific instance], it shows me that you believe in [or support] me."
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Give multiple examples if possible</li>
+                    <li>Talk about a dream they've specifically supported</li>
+                    <li>Express how their support has changed you</li>
+                    <li>Commit to supporting their dreams in return</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page page-break">
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 25</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Send a Flirty Text</strong>
+                Send a flirty text message. Something a little spicy that feels like you're dating again. Think about what would make them smile or blush.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Send it at an unexpected time</li>
+                    <li>Reference something specific about them you find attractive</li>
+                    <li>Build anticipation for later</li>
+                    <li>Follow through when you see them</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 26</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Address What Creates Distance</strong>
+                Ask each other this harder question: "What's something I do (or don't do) that makes you feel distant or disconnected, and how can I change that?" DO NOT react to your partner's response, fight it, or defend yourself. Just take it in.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Approach with humility and genuine curiosity</li>
+                    <li>Take notes if needed to show you're taking it seriously</li>
+                    <li>Ask clarifying questions gently</li>
+                    <li>Thank them for their honesty and commit to one change</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 27</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Start Mornings Positively</strong>
+                Start your mornings with positive words towards each other. Be mindful to not start the day in chaos, in a crabby mood, or right to logistics. Say something sweet, even just a "good morning, babe" to start each day.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Start with a hug or kiss</li>
+                    <li>Ask about their intentions for the day</li>
+                    <li>Express excitement about something you'll do together</li>
+                    <li>Make this the new normal going forward</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 28</div>
+                <div class="day-theme">Intimacy</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Improve Your Initiation</strong>
+                Improve your initiation. Notice if you've gotten complacent in how you initiate intimacy with your partner (or if it's always on them to initiate). Pick one of the following or think of another special idea: surprise them in lingerie or being naked in your room, set up a romantic scene with music and rose petals, blindfold them and ask them what kind of touch they want right now.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Plan something they wouldn't expect</li>
+                    <li>Put real thought and effort into it</li>
+                    <li>Create an experience, not just a moment</li>
+                    <li>Be confident and playful</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="page page-break">
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 29</div>
+                <div class="day-theme">Connection</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Share Feelings, Not Just Facts</strong>
+                Focus more on feelings in your conversations. For today's prompt, take turns: 1. Picking an area of life where you are struggling, stressed, or worried. 2. Open up about how you feel in that area. Be more vulnerable and go beneath the surface.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Use "I feel..." statements instead of facts or complaints</li>
+                    <li>Really listen when it's their turn</li>
+                    <li>Validate their feelings without trying to solve</li>
+                    <li>End with a hug and reassurance</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="day-card">
+            <div class="day-header">
+                <div class="day-number">Day 30</div>
+                <div class="day-theme">Appreciation</div>
+                <div class="checkbox"></div>
+            </div>
+            <div class="day-prompt">
+                <strong>Reflect and Express Gratitude</strong>
+                Share with each other what parts of this challenge made the biggest difference for you. "The prompts that I enjoyed most were ___." Also express some gratitude to each other for participating in this challenge and how it benefited your relationship.
+            </div>
+            <div class="make-special">
+                <div class="make-special-title">Make it special:</div>
+                <ul>
+                    <li>Look back through the month together</li>
+                    <li>Identify 3-5 practices you want to continue</li>
+                    <li>Celebrate with a special dinner or date</li>
+                    <li>Take a photo to commemorate completing the challenge</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Closing Page -->
+    <div class="page footer-page page-break">
+        <h2>You Did It! ❤</h2>
+        <p>Congratulations on completing 30 days of intentional connection, intimacy, and appreciation. You've invested in what matters most—each other.</p>
+        
+        <div style="margin: 40px 0;">
+            <h3 style="margin-bottom: 20px; font-size: 1.5em;">Keep the Momentum Going:</h3>
+            <ul>
+                <li>Pick your top 5 favorite days and repeat them monthly</li>
+                <li>Create a "Best of Us" date night once a week with one element from this challenge</li>
+                <li>Revisit this challenge annually or for special occasions</li>
+                <li>Add your own days based on what worked best for you</li>
+            </ul>
+        </div>
+        
+        <p style="font-size: 1.3em; font-style: italic; margin-top: 40px;">Remember: Marriage isn't just about what you want; it's about what makes your partner feel most loved.</p>
+        
+        <div class="decoration" style="margin-top: 50px; font-size: 2em;">❤ ❤ ❤</div>
+    </div>
+
+    <!-- Notes Page -->
+    <div class="page page-break" style="padding: 60px 50px;">
+        <h2 style="color: #8B1538; text-align: center; margin-bottom: 40px; font-size: 2em;">Notes & Reflections</h2>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+    </div>
+
+    <div class="page page-break" style="padding: 60px 50px;">
+        <h2 style="color: #8B1538; text-align: center; margin-bottom: 40px; font-size: 2em;">Our Favorite Prompts</h2>
+        <p style="text-align: center; margin-bottom: 40px; font-style: italic;">Write down the prompts you want to revisit regularly:</p>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+        <div style="border-bottom: 1px solid #ddd; margin: 20px 0; padding-bottom: 15px;"></div>
+    </div>
+</div>
+</body> </html>
